@@ -26,7 +26,11 @@ git checkout -b <branch-name>
 
 ### 3. Add or update SVG files in the /icons directory
 
-Before adding a new icon, check that it meets all the requirements of the [guidelines]()
+Before adding a new icon, check that it meets all the following requirements:
+
+- All icons must be 16 x 16.
+- Icon should be cleaned up.
+- Icon sould use only default `fill` for shapes, it should not include color in SVG.
 
 ### 4. Commit and push changes
 
