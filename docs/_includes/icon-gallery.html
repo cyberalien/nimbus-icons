@@ -1,0 +1,16 @@
+<div class="row mt-5">
+	<div class="col col-md-10 icon-gallery-wrapper">
+		<div class="js-icon-gallery-mask icon-gallery-mask">
+			{% for icon in site.data.icons %}
+			    <div data-name="{{ icon.name }}" data-url="icons/{{ icon.name }}.svg" class="js-icon icon-gallery-item">
+			    	<span class="icon-gallery-svg">
+			    		{% include icons/{{ icon.name }}.svg %}
+			    	</span>
+			    	{% include modal-download-icon.html %}
+			    </div>
+			{% endfor %}
+			<span class="js-icon-gallery-extend icon-gallery-extend">{{ site.data.translations['iconGalleryMore'][page.lang] }} </span>
+		</div>
+		<div class="js-icon-gallery-end icon-gallery-end"></div>
+	</div>
+</div>

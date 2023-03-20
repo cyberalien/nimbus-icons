@@ -1,0 +1,16 @@
+<div class="js-icon-modal modal row align-items-center" style="display: none">
+	<div class="col-2 modal-icon-preview">
+		{% include icons/{{ icon.name }}.svg %}
+	</div>
+	<div class="col-3 col-md-5">
+		<h4 class="m-0 text-secondary">{{ icon.name }}</h4>
+		<p class="m-0 text-secondary">400x400</p>
+	</div>
+	<div class="col-7 col-md-5 text-right">
+		<a class="btn modal-button ml-4 ml-md-0 mr-4" href="icons/{{ icon.name }}.svg" download="{{ icon.name }}.svg">SVG</a>
+		<a class="btn modal-button d-none" href="icons/{{ icon.name }}.png" download="{{ icon.name }}">PNG</a>
+	</div>
+	<span class="js-close-modal modal-close">
+		{% include images/close.svg class="modal-close-icon color-secondary" %}
+	</span>
+</div>

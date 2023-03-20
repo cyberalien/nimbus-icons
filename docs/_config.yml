@@ -1,0 +1,3 @@
+url: "https://tiendanube.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/nimbus-icons" # the subpath of your site, e.g. /blog
+title: "Nimbus Icons | Tiendanube" # the name of your site, e.g. ACME Corp.

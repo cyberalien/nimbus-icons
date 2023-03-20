@@ -1,0 +1,4 @@
+*.js linguist-vendored
+src/** linguist-vendored
+*.svg linguist-detectable
+
